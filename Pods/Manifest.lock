@@ -1,0 +1,28 @@
+PODS:
+  - APIKit (1.1.2):
+    - Result (~> 1.0.1)
+  - ObjectMapper (1.1.1)
+  - Result (1.0.2)
+  - RxCocoa (2.1.0):
+    - RxSwift (~> 2.0)
+  - RxSwift (2.1.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+
+DEPENDENCIES:
+  - APIKit
+  - ObjectMapper
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  APIKit: d6e313f1ca3b0cae30a7059f872f7780d8a147ec
+  ObjectMapper: 4143abed1dbd49b73d75092fe8fa1c88ed6434b7
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+  RxCocoa: 79b5feb8378545336e756a0a33fcf5e95050b71c
+  RxSwift: 110fb07f81c17c2c3b3254d168363057b1880d18
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+
+COCOAPODS: 0.39.0
