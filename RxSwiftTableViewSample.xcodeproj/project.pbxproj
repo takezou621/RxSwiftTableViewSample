@@ -17,6 +17,12 @@
 		D27BB6BC1C683F5B002C4010 /* QiitaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27BB6BB1C683F5B002C4010 /* QiitaAPI.swift */; };
 		D27BB6BE1C68435C002C4010 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27BB6BD1C68435C002C4010 /* ViewModel.swift */; };
 		D27BB6C01C6843F0002C4010 /* RxSwift+APIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27BB6BF1C6843F0002C4010 /* RxSwift+APIKit.swift */; };
+		D27BB6C21C68477C002C4010 /* ArticleCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27BB6C11C68477C002C4010 /* ArticleCellFactory.swift */; };
+		D27BB6C41C68478C002C4010 /* ArticleCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27BB6C31C68478C002C4010 /* ArticleCellProtocol.swift */; };
+		D27BB6C81C6847DD002C4010 /* ArticleCellTypeVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27BB6C71C6847DD002C4010 /* ArticleCellTypeVariable.swift */; };
+		D27BB6CA1C6847EC002C4010 /* ArticleCellTypeFixed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27BB6C91C6847EC002C4010 /* ArticleCellTypeFixed.swift */; };
+		D27BB6CC1C685533002C4010 /* ArticleCellTypeVariable.xib in Resources */ = {isa = PBXBuildFile; fileRef = D27BB6CB1C685533002C4010 /* ArticleCellTypeVariable.xib */; };
+		D27BB6CE1C685564002C4010 /* ArticleCellTypeFixed.xib in Resources */ = {isa = PBXBuildFile; fileRef = D27BB6CD1C685564002C4010 /* ArticleCellTypeFixed.xib */; };
 		F7C7D43A2B8016224A89712A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC462220F7B06F45A6BCE86 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +54,12 @@
 		D27BB6BB1C683F5B002C4010 /* QiitaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiitaAPI.swift; sourceTree = "<group>"; };
 		D27BB6BD1C68435C002C4010 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		D27BB6BF1C6843F0002C4010 /* RxSwift+APIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxSwift+APIKit.swift"; sourceTree = "<group>"; };
+		D27BB6C11C68477C002C4010 /* ArticleCellFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCellFactory.swift; sourceTree = "<group>"; };
+		D27BB6C31C68478C002C4010 /* ArticleCellProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCellProtocol.swift; sourceTree = "<group>"; };
+		D27BB6C71C6847DD002C4010 /* ArticleCellTypeVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCellTypeVariable.swift; sourceTree = "<group>"; };
+		D27BB6C91C6847EC002C4010 /* ArticleCellTypeFixed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCellTypeFixed.swift; sourceTree = "<group>"; };
+		D27BB6CB1C685533002C4010 /* ArticleCellTypeVariable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleCellTypeVariable.xib; sourceTree = "<group>"; };
+		D27BB6CD1C685564002C4010 /* ArticleCellTypeFixed.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleCellTypeFixed.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,12 @@
 				D27BB6A01C6838A9002C4010 /* Assets.xcassets */,
 				D27BB6A21C6838A9002C4010 /* LaunchScreen.storyboard */,
 				D27BB6A51C6838A9002C4010 /* Info.plist */,
+				D27BB6C11C68477C002C4010 /* ArticleCellFactory.swift */,
+				D27BB6C31C68478C002C4010 /* ArticleCellProtocol.swift */,
+				D27BB6C71C6847DD002C4010 /* ArticleCellTypeVariable.swift */,
+				D27BB6CB1C685533002C4010 /* ArticleCellTypeVariable.xib */,
+				D27BB6C91C6847EC002C4010 /* ArticleCellTypeFixed.swift */,
+				D27BB6CD1C685564002C4010 /* ArticleCellTypeFixed.xib */,
 			);
 			path = RxSwiftTableViewSample;
 			sourceTree = "<group>";
@@ -218,6 +236,8 @@
 			files = (
 				D27BB6A41C6838A9002C4010 /* LaunchScreen.storyboard in Resources */,
 				D27BB6A11C6838A9002C4010 /* Assets.xcassets in Resources */,
+				D27BB6CC1C685533002C4010 /* ArticleCellTypeVariable.xib in Resources */,
+				D27BB6CE1C685564002C4010 /* ArticleCellTypeFixed.xib in Resources */,
 				D27BB69F1C6838A9002C4010 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,9 +306,13 @@
 			files = (
 				D27BB6BE1C68435C002C4010 /* ViewModel.swift in Sources */,
 				D27BB69C1C6838A9002C4010 /* ViewController.swift in Sources */,
+				D27BB6C81C6847DD002C4010 /* ArticleCellTypeVariable.swift in Sources */,
+				D27BB6C41C68478C002C4010 /* ArticleCellProtocol.swift in Sources */,
 				D27BB6BA1C683E9D002C4010 /* Article.swift in Sources */,
 				D27BB6C01C6843F0002C4010 /* RxSwift+APIKit.swift in Sources */,
+				D27BB6CA1C6847EC002C4010 /* ArticleCellTypeFixed.swift in Sources */,
 				D27BB69A1C6838A9002C4010 /* AppDelegate.swift in Sources */,
+				D27BB6C21C68477C002C4010 /* ArticleCellFactory.swift in Sources */,
 				D27BB6BC1C683F5B002C4010 /* QiitaAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
